@@ -1,0 +1,87 @@
+
+/* Border
+------------------------------------------------*/
+
+.top, .bottom, .left, .right {
+    background: #aba84b;
+    position: fixed;
+	}
+
+    .left, .right {
+    top: 0; bottom: 0;
+    width: 7px;
+	}
+
+     .left { left: 0; 
+	}
+
+     .right { right: 0; 
+	}
+  
+    .top, .bottom {
+    left: 0; right: 0;
+    height: 7px;
+	}
+
+    .top { top: 0; }
+    .bottom { bottom: 0; 
+	}
+
+/* Layout
+------------------------------------------------*/
+
+	.p {
+		font-family: Arial, Verdana, sans-serif;
+		color: #2b202e;
+	}
+
+	.column1of3, .column2of3, .column3of3 {
+	    width: 300px;
+	    float: left;
+	    margin: 10px;  
+	    font-family: Arial, Verdana, sans-serif;   
+	    border-top: solid; 
+	    color: black; 
+	    background: #EEEEDB;
+	    padding-left: 10px;
+	    padding-right: 10px;
+
+	}
+
+	.header-section {
+		width: 960px;
+		height: 150px;
+	    position: relative;
+	    float: left;
+	}
+
+	.ingrid-face {
+    	padding-right: 250px;
+    	width: 300px;
+	    float: right;
+	    height: 180px;
+	    border-radius: 50%;
+	}
+
+	.ingrid-logo {
+		padding-left: 329px;
+		padding-left: 329px;
+		height: 180px;
+	}
+
+	.social-media {
+		width: 300px;
+	    float: left;
+	    margin: 10px; 
+		margin-top: 20px;
+	}
+
+	h3 { font-size: 16px; 
+	color: #aba84b;
+
+	}
+
+	h2 { font-size: 18px; 
+	font-style: bold;
+
+	}
